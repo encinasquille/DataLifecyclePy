@@ -24,12 +24,12 @@
 To install DataVizExplorer once it's available, use the following command:
 
 ```bash
-pip install DataVisExplorer
+pip install DataVizExplorer
 ```
 With `Conda`
 
 ```bash
-conda install -c conda-forge DataVisExplorer
+conda install -c conda-forge DataVizExplorer
 ```
 ## Usage
 
