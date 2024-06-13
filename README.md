@@ -199,7 +199,6 @@ We employ various <span style="color: skyblue;">Data Exploration</span> techniqu
 - Show Hypothesis Testing
 - Show ANOVA (Analysis of Variance)
 - And more
-- 
 ###### 3.2.1. Show Descriptive Statistics
 Use the `describe()` function to interactively select variables and display all descriptive statistics information (See Figure 5).
 
