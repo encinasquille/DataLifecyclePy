@@ -10,7 +10,7 @@
 - **Compatibility:** Seamlessly integrates with Jupyter notebooks and the IPython kernel, leveraging the full potential of these platforms for interactive development.
 - **Data Science Methodology:** Comprehensive support for the main steps of the Data Science methodology, including data cleaning, exploration, visualization, and modeling (See Figure 1).
 
-[![](docs/img/datasciene.png)](https://www.python.org/downloads/) 
+![](docs/img/datasciene.png) 
 <p align="center">
   <em>Figure 1: Data Science Methodology as Data Analysis Life Cycle [1]</em>
 </p>
