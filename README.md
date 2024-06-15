@@ -96,7 +96,7 @@ df1 = DataIngestion.loadData(path, file1)
 df2 = DataIngestion.loadData(path, file2)
 ```
 
-##### 2.2.2. Transforming Data
+##### 2.2.4. Transforming Data
 In this step, we perform the following operations:
 
 1. Column Removal
@@ -109,7 +109,7 @@ In this step, we perform the following operations:
 
 In this case, we demonstrate only the necessary operations for this case study.
 
-###### 2.2.2.1. Deleting Unnecessary Columns
+###### 2.2.4.1. Deleting Unnecessary Columns
 Use the `deleteColumns()` function to interactively view the variables in the dataset and mark those that are not needed for deletion
 
 
@@ -128,7 +128,7 @@ df1 = DataIngestion.deleteColumns(df1)
 df2 = DataIngestion.deleteColumns(df2)
 ```
 
-###### 2.2.2.2. Renaming Columns
+###### 2.2.4.2. Renaming Columns
 Use the `renameColumns()` function to interactively view and rename the variables in the dataset.
 
 ```py
@@ -154,7 +154,7 @@ df1 = DataIngestion.renameColumns(df1)
 df2 = DataIngestion.renameColumns(df2)
 ```
 
-###### 2.2.2.3. Manipulating Date Time 
+###### 2.2.4.3. Manipulating Date Time 
 
 Use the `datetimeManipulate()` function to interactively perform date and time manipulation. This involves creating new columns from the components of the Datetime variable. This process enables the interactive use of visual tools during the data visualization step, enhancing the clarity and effectiveness of temporal data analysis.
 
@@ -266,10 +266,10 @@ from DataVizExplorer import DataVisualization
 > We are excited to announce that DataVizExplorer will be launching very soon! 
 #### Authors
 
- - Rosa Virginia Encinas Quille <sup>1,2</sup> <a href="https://orcid.org/0000-0001-9166-1741"><img src="docs/img/orcid.logo.icon.svg" alt="ORCID Logo" width="20"></a>
+- Rosa Virginia Encinas Quille <sup>1,2</sup> <a href="https://orcid.org/0000-0001-9166-1741"><img src="docs/img/orcid.logo.icon.svg" alt="ORCID Logo" width="20"></a>
 - Felipe Valencia de Almeida <sup>2</sup> <a href="https://orcid.org/0000-0003-2031-6443"><img src="docs/img/orcid.logo.icon.svg" alt="ORCID Logo" width="20"></a>
-- Suzanne Lorraine Allard <sup>3</sup> <a href="https://orcid.org/0000-0001-9421-3848"><img src="docs/img/orcid.logo.icon.svg" alt="ORCID Logo" width="20"></a>
 - Pedro Luiz Pizzigatti Corrêa <sup>1,2</sup> <a href="https://orcid.org/0000-0002-8743-4244"><img src="docs/img/orcid.logo.icon.svg" alt="ORCID Logo" width="20"></a>
+- Suzanne Lorraine Allard <sup>3</sup> <a href="https://orcid.org/0000-0001-9421-3848"><img src="docs/img/orcid.logo.icon.svg" alt="ORCID Logo" width="20"></a>
 - Giri Prakash <sup>4</sup> <a href="https://orcid.org/0000-0002-2590-5848"><img src="docs/img/orcid.logo.icon.svg" alt="ORCID Logo" width="20"></a>
 
 <sup>1</sup> School of Arts, Sciences and Humanities, University of São Paulo, Rua Arlindo Béttio, 1000-Ermelino Matarazzo, São Paulo 03828-000, Brazil
