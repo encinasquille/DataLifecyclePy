@@ -4,7 +4,7 @@ This directory contains different types of data for analyzing and processing.
 
 ### Files
 
-- `Puno-Puno-qc00000708.txt`: This file contains daily temperature data for Puno, Peru. The dataset includes the following columns:
+- `SENAMI-Puno-Puno-qc00000708.txt`: This file contains daily temperature data for Puno, Peru. The dataset includes the following columns:
   - `Year`: Year of the recorded data.
   - `Month`: Month of the recorded data.
   - `Day`: Day of the recorded data.
